@@ -12,7 +12,7 @@ const sora=Sora({
 
 export default function Layout({children}) {
   return (
-    <div className={` w-full h-screen overflow-hidden bg-first text-fourth bg-cover bg-no-repeat ${sora.variable} font-sora relative`}>
+    <div className={` w-full h-full bg-first text-fourth ${sora.variable} font-sora relative`}>
       <Nav/>
       <Header/>
       {children}

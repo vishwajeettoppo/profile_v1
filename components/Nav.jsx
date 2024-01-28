@@ -6,12 +6,12 @@ import {HiHome, HiUser, HiViewColumns, HiRectangleGroup, HiChatBubbleBottomCente
 import { motion } from 'framer-motion'
 
 export const navData=[
-    {name:'home', path:'/', icon:<HiHome/>},
-    {name:'about', path:'/about', icon:<HiUser/>},
-    {name:'services', path:'/services', icon:<HiRectangleGroup/>},
-    {name:'work', path:'/work', icon:<HiViewColumns/>},
-    {name:'testimonials', path:'/testimonials', icon:<HiChatBubbleBottomCenterText/>},
-    {name:'contact', path:'/contact', icon:<HiEnvelope/>},
+    {name:'Home', path:'/', icon:<HiHome/>},
+    {name:'About', path:'/about', icon:<HiUser/>},
+    {name:'Services', path:'/services', icon:<HiRectangleGroup/>},
+    {name:'Work', path:'/work', icon:<HiViewColumns/>},
+    {name:'Testimonials', path:'/testimonials', icon:<HiChatBubbleBottomCenterText/>},
+    {name:'Contact', path:'/contact', icon:<HiEnvelope/>},
 ]
 
 export default function Nav() {
