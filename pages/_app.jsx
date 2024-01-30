@@ -4,13 +4,13 @@ import React from "react";
 import { AnimatePresence } from "framer-motion";
 
 export default function MyApp({ Component, pageProps, router }) {
-
-
   return (
-    <Layout>
-      <AnimatePresence mode="wait" initial={false}>
+    <div className="h-screen w-screen">
+      <Layout>
+        <AnimatePresence mode="wait" initial={false}>
           <Component key={router.pathname} {...pageProps} />
-      </AnimatePresence>
-    </Layout>
+        </AnimatePresence>
+      </Layout>
+    </div>
   );
 }
