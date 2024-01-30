@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 
 export default function MyApp({ Component, pageProps, router }) {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-screen w-screen bg-first">
       <Layout>
         <AnimatePresence mode="wait" initial={false}>
           <Component key={router.pathname} {...pageProps} />

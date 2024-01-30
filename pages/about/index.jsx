@@ -18,7 +18,7 @@ export default function About() {
           </div>
         </div>
         <div className="flex flex-col gap-8 lg:w-1/2">
-          <p className="text-third text-lg font-bold">About Me</p>
+          <p className="text-third text-lg font-bold uppercase">About Me</p>
           <p className="font-bold text-2xl 2xl:text-4xl text-fourth">
             Frontend Developer, <br />
             3rd year student persueing B.Tech. from IIITDM Jabalpur
